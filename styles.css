@@ -1,16 +1,37 @@
+.background-image {
+    background-image: url(resources/table-mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.overlay {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.profile-head {
+    padding: 1.5em;
+
+}
+
+h1 {
+    color: white;
+}
+
 .name-picture {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1em 0;
 }
 
-img {
+#me-picture {
     width: 200px;
 }
 
-.center-name {
-    text-align: center;
+.left-name {
+    text-align: left;
   }
   
 .right-image {
