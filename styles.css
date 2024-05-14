@@ -44,11 +44,24 @@ h1 {
     border-radius: 15px;
 }
 
-.which-city {
+.row-heading {
     margin: 0 0 -20px;
-    padding-left: 1em;
+    padding-left: 2%;
+}
+
+.p-description {
+    padding-left: 2%;
 }
 
 p {
     margin: 0%;
+}
+
+.languages-table {
+    border-collapse: collapse;
+}
+
+.languages-table td {
+    border: 1px solid black;
+    padding: 1px 8px 1px 10px;
 }
