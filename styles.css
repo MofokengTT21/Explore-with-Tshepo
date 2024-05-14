@@ -20,9 +20,10 @@ h1 {
     color: white;
 }
 
+}
 .name-picture {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -37,7 +38,31 @@ h1 {
 .right-image {
     text-align: right;
 }
-  
+
+/* Header media */ 
+@media screen and (max-width: 720px) {
+    .overlay {
+        display: flex;
+        justify-content: center; 
+    }
+    .profile-head {
+        margin: -2em 0 0;
+    }
+    .name-picture {
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+    }
+    .left-name {
+        text-align: center;
+      }
+      
+    .right-image {
+        text-align: center;
+    }
+
+  }
+
 .favorite-city-image {
     width: 250px;
     margin: 0.5em 0;
@@ -68,7 +93,8 @@ p {
 
 .favorite-subjects-images {
     width: 220px;
-    border-radius: 15px
+    border-radius: 15px;
+    margin: 0.7em 0;
 }
 h4 {
     margin: 0;
