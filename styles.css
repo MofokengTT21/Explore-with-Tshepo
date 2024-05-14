@@ -38,3 +38,17 @@ h1 {
     text-align: right;
 }
   
+.favorite-city-image {
+    width: 250px;
+    margin: 0.5em 0;
+    border-radius: 15px;
+}
+
+.which-city {
+    margin: 0 0 -20px;
+    padding-left: 1em;
+}
+
+p {
+    margin: 0%;
+}
