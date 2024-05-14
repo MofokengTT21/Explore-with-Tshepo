@@ -1,0 +1,19 @@
+.name-picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+img {
+    width: 200px;
+}
+
+.center-name {
+    text-align: center;
+  }
+  
+.right-image {
+    text-align: right;
+}
+  
