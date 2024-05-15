@@ -81,7 +81,7 @@ h1 {
 }
 
 .row-heading {
-    margin: 0 0 -20px;
+    margin: 0 0 -28px;
     padding-left: 2%;
 }
 
@@ -107,8 +107,17 @@ p {
     border-radius: 15px;
     margin: 0.7em 0;
 }
+
+.row-favorite-subjects {
+    margin-top: -0.5em;
+}
+
 h4 {
-    margin: 0;
+    margin-top: -1em;
+}
+
+h5 {
+    margin-top: 0;
 }
 
 @media screen and (max-width: 600px) {
