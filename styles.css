@@ -1,5 +1,5 @@
 .background-image {
-    background-image: url(resources/table-mountain.jpg);
+    background-image: url(images/table-mountain.jpg);
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -117,7 +117,7 @@ h4 {
 }
 
 h5 {
-    margin-top: 0;
+    margin-top: -0.3em;
 }
 
 @media screen and (max-width: 600px) {
