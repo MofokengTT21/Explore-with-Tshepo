@@ -67,7 +67,7 @@ p {
 }
 
 .background-image {
-  background-image: url(/images/table-mountain.jpg);
+  background-image: url(images/table-mountain.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
