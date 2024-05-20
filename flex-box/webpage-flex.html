@@ -15,15 +15,39 @@
         <section class="row name-picture">
           <div class="col-6 left-name">
             <h1>Tshepo Mofokeng</h1>
+            <nav>
+              <a href="webpage-gri.html">Flexbox</a>
+              <a href="#simple-grip">Simple-Grip</a>
+            </nav>
           </div>
-          <div class="col-6 right-image">
+          <div class="inside-container right-image">
             <img id="me-image" src="/images/me.jpeg">
           </div>
         </section>
       </div>
     </div>
   </header>
-        
+
+<!-- Add this to your existing CSS or <style> section -->
+<style>
+  nav {
+      background-color: #333;
+      overflow: hidden;
+  }
+  nav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  nav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+</style>
+ 
 <!-- Favorite city-->
   <div class="container favorite-city">
     <section class="row row-heading">
@@ -32,11 +56,11 @@
     <section class="row p-description">
       <p>The city I would like to visit</p>
     </section>
-    <section class="row">
-      <div class="col-4 col-13-sm favorite-city-image">
+    <section class="inside-container place-visit">
+      <div class="inside-container favorite-city-image">
         <img class="favorite-city-image" src="/images/paris.jpg">
       </div>
-      <div class="col-8 reason">
+      <div class="inside-container reason">
         <p>Paris, a timeless city of allure and cultural richness, whispers tales of history, art, and romance at every corner. From the iconic Eiffel Tower to Montmartre's labyrinthine streets, it's a symphony of architectural marvels and culinary delights. Each moment, from Louvre's grandeur to Seine's tranquil banks, invites immersion in its timeless charm and vibrant spirit.</p>
       </div>
     </section>
@@ -51,7 +75,7 @@
       <p>Languages I would like to learn:</p>
     </section>
     <section class="row">
-      <div class="col-16">
+      <div class="inside-container">
         <table class="languages-table">
           <tr>
             <td><p>Spanish</p></td>
@@ -72,23 +96,23 @@
 
 <!-- Favorite subjects-->
   <div class="container">
-    <section class="row row-heading">
+    <section class="row-heading">
       <h2>Favorite Subjects</h2>
-      <h4>BTech in Industrial Engineering</h4>
+      <span><h4>BTech in Industrial Engineering</h4></span>
     </section>
-    <section class="row p-description">
+    <section class="inside-container p-description">
       <p>University of Johannesburg, Gauteng</p>
     </section>
     <section class="row row-favorite-subjects">
-      <div class="col-4 first-favorite-subjects-images">
+      <div class="inside-container first-favorite-subjects-images">
         <img class="first-favorite-subjects-images" src="/images/4IR.jpg">
         <h5>4IR Technologies</h5>
       </div>
-      <div class="col-4 favorite-subjects-images">
+      <div class="inside-container favorite-subjects-images">
         <img class="favorite-subjects-images" src="/images/full-stack.jpg">
         <h5>Full Stack Web Dev</h5>
       </div>
-      <div class="col-4 favorite-subjects-images">
+      <div class="inside-container favorite-subjects-images">
         <img class="favorite-subjects-images" src="/images/agile.jpeg">
         <h5>Agile Rapid Skills</h5>
       </div>
