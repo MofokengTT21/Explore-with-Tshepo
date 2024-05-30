@@ -102,6 +102,9 @@ p {
 }
 
 .row {
+  display: flex;
+  flex-wrap: wrap; 
+  
   position: relative;
   width: 100%;
 }
@@ -110,6 +113,8 @@ p {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+
+  
 }
 
 .col-1,
